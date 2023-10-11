@@ -1,2 +1,3 @@
 # HackaTruck
-HackaTruck - MakerSpace course
+HackaTruck-MakerSpace course (swift, iot and cloud)
+Simple projects using swift
