@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F0FEAD12ADF3F38009E00BD /* hungria.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3F0FEAD02ADF3F38009E00BD /* hungria.mp3 */; };
+		3F0FEAD32ADF45D8009E00BD /* carinha.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3F0FEAD22ADF45D8009E00BD /* carinha.mp3 */; };
 		3FD3D2F02ADDED3600E62643 /* ListViewSpotifyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD3D2EF2ADDED3600E62643 /* ListViewSpotifyApp.swift */; };
 		3FD3D2F22ADDED3600E62643 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD3D2F12ADDED3600E62643 /* ContentView.swift */; };
 		3FD3D2F42ADDED3800E62643 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FD3D2F32ADDED3800E62643 /* Assets.xcassets */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F0FEAD02ADF3F38009E00BD /* hungria.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hungria.mp3; sourceTree = "<group>"; };
+		3F0FEAD22ADF45D8009E00BD /* carinha.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = carinha.mp3; sourceTree = "<group>"; };
 		3FD3D2EC2ADDED3600E62643 /* ListViewSpotify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ListViewSpotify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FD3D2EF2ADDED3600E62643 /* ListViewSpotifyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewSpotifyApp.swift; sourceTree = "<group>"; };
 		3FD3D2F12ADDED3600E62643 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -59,6 +63,8 @@
 		3FD3D2EE2ADDED3600E62643 /* ListViewSpotify */ = {
 			isa = PBXGroup;
 			children = (
+				3F0FEAD02ADF3F38009E00BD /* hungria.mp3 */,
+				3F0FEAD22ADF45D8009E00BD /* carinha.mp3 */,
 				3FD3D2EF2ADDED3600E62643 /* ListViewSpotifyApp.swift */,
 				3FD3D2FD2ADDEE3000E62643 /* HackaFM.swift */,
 				3FD3D3012ADE06F800E62643 /* PlayView.swift */,
@@ -137,7 +143,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F0FEAD32ADF45D8009E00BD /* carinha.mp3 in Resources */,
 				3FD3D2F72ADDED3800E62643 /* Preview Assets.xcassets in Resources */,
+				3F0FEAD12ADF3F38009E00BD /* hungria.mp3 in Resources */,
 				3FD3D2F42ADDED3800E62643 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

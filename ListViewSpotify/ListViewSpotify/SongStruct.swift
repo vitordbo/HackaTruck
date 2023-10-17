@@ -12,4 +12,5 @@ struct Song : Identifiable {
     var name: String
     var artist: String
     var cover: String
+    var audioFile: String
 }
