@@ -1,0 +1,19 @@
+[
+    {
+        "id": "16db915df331b93f",
+        "type": "http in",
+        "z": "19fdf098e08f235f",
+        "name": "get All",
+        "url": "/getAllQuitandas",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 490,
+        "y": 280,
+        "wires": [
+            [
+                "d19f9cc8b5f785e0"
+            ]
+        ]
+    }
+]
