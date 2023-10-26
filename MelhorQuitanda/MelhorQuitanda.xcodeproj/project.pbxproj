@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F1C6C182AE9C65300C4E08F /* FruitsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1C6C172AE9C65300C4E08F /* FruitsView.swift */; };
+		3F1C6C1A2AE9C67E00C4E08F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1C6C192AE9C67E00C4E08F /* HomeView.swift */; };
+		3F1C6C1C2AE9D1B400C4E08F /* FruitsDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1C6C1B2AE9D1B400C4E08F /* FruitsDetails.swift */; };
 		3F7E87A82AE88ABC0068D8FF /* MelhorQuitandaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7E87A72AE88ABC0068D8FF /* MelhorQuitandaApp.swift */; };
 		3F7E87AC2AE88ABD0068D8FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F7E87AB2AE88ABD0068D8FF /* Assets.xcassets */; };
 		3F7E87AF2AE88ABD0068D8FF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F7E87AE2AE88ABD0068D8FF /* Preview Assets.xcassets */; };
@@ -18,6 +21,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F1C6C172AE9C65300C4E08F /* FruitsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitsView.swift; sourceTree = "<group>"; };
+		3F1C6C192AE9C67E00C4E08F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		3F1C6C1B2AE9D1B400C4E08F /* FruitsDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitsDetails.swift; sourceTree = "<group>"; };
+		3F1C6C1D2AE9E77800C4E08F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		3F7E87A42AE88ABC0068D8FF /* MelhorQuitanda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MelhorQuitanda.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F7E87A72AE88ABC0068D8FF /* MelhorQuitandaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MelhorQuitandaApp.swift; sourceTree = "<group>"; };
 		3F7E87AB2AE88ABD0068D8FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -60,9 +67,13 @@
 		3F7E87A62AE88ABC0068D8FF /* MelhorQuitanda */ = {
 			isa = PBXGroup;
 			children = (
+				3F1C6C1D2AE9E77800C4E08F /* Info.plist */,
 				3F7E87A72AE88ABC0068D8FF /* MelhorQuitandaApp.swift */,
 				3F7E87B72AE890220068D8FF /* StartView.swift */,
 				3F7E87BD2AE89C3F0068D8FF /* EnderecoView.swift */,
+				3F1C6C172AE9C65300C4E08F /* FruitsView.swift */,
+				3F1C6C1B2AE9D1B400C4E08F /* FruitsDetails.swift */,
+				3F1C6C192AE9C67E00C4E08F /* HomeView.swift */,
 				3F7E87B92AE894930068D8FF /* HomePage.swift */,
 				3F7E87B52AE88B860068D8FF /* FruitViewModel.swift */,
 				3F7E87AB2AE88ABD0068D8FF /* Assets.xcassets */,
@@ -151,10 +162,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F7E87BA2AE894930068D8FF /* HomePage.swift in Sources */,
+				3F1C6C1C2AE9D1B400C4E08F /* FruitsDetails.swift in Sources */,
+				3F1C6C1A2AE9C67E00C4E08F /* HomeView.swift in Sources */,
 				3F7E87B62AE88B860068D8FF /* FruitViewModel.swift in Sources */,
 				3F7E87A82AE88ABC0068D8FF /* MelhorQuitandaApp.swift in Sources */,
 				3F7E87BE2AE89C3F0068D8FF /* EnderecoView.swift in Sources */,
 				3F7E87B82AE890220068D8FF /* StartView.swift in Sources */,
+				3F1C6C182AE9C65300C4E08F /* FruitsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,7 +299,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"MelhorQuitanda/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = MelhorQuitanda/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -313,7 +327,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"MelhorQuitanda/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = MelhorQuitanda/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";

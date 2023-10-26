@@ -11,14 +11,15 @@ import Foundation
 //    var data: [Quitanda]
 //}
 
-struct Quitanda: Decodable, Identifiable {
-    var id: String? // chamar o proximo
+struct Quitanda: Decodable, Hashable {
+    var _id: String? // chamar o proximo
     var Nome: String?
     var Endereco: String?
     var Frutas: [Fruits]? // vai ser array?
 }
 
-struct Fruits: Decodable { // hasable?
+// hasable?
+struct Fruits: Decodable, Hashable {
     var Nome: String?
     var Quantidade: Int?
     var Foto: String?
@@ -30,7 +31,7 @@ class FruitViewModel: ObservableObject {
     
     func fetchQuitanda() {
         //  declarar a url (endpoint)
-        guard let url =  URL(string: "http://localhost:1880/getAllQuitandas") else {
+        guard let url =  URL(string: "http://127.0.0.1:1880/getAllQuitandas") else {
             return
         }
 
@@ -46,6 +47,8 @@ class FruitViewModel: ObservableObject {
                 
                 DispatchQueue.main.async {
                     self?.quitanda = dadosDecodificados
+                    
+                    print(dadosDecodificados)
                 }
                 
             }catch{

@@ -6,20 +6,21 @@
 //
 
 import SwiftUI
+import CoreLocation
 
 struct HomePage: View {
     @StateObject var vm = FruitViewModel()
 
     var body: some View {
         TabView{
-            EnderecoView().badge(2).tabItem
+            HomeView().badge(2).tabItem
             {
                 (Label("Home", systemImage: "house.fill"))
             }
-            EnderecoView().tabItem{
-                        (Label("Fruits", systemImage: "photo"))
+            FruitsView().tabItem{
+                        (Label("Fruits", systemImage: "cart.circle.fill"))
             }
-            EnderecoView().tabItem
+            EnderecoView(selectedLocation: Endereco(nome: "melhor", coordinate: CLLocationCoordinate2D(latitude: 52.3555, longitude: 1.1743), description: "")).tabItem
             {
                 (Label("Endereco", systemImage: "globe"))
             }
