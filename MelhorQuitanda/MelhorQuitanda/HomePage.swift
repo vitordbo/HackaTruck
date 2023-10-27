@@ -13,10 +13,6 @@ struct HomePage: View {
 
     var body: some View {
         TabView{
-            HomeView().badge(2).tabItem
-            {
-                (Label("Home", systemImage: "house.fill"))
-            }
             FruitsView().tabItem{
                         (Label("Fruits", systemImage: "cart.circle.fill"))
             }
